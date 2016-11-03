@@ -1,0 +1,317 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE82249C1DCB440D00833543 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EE82249B1DCB440D00833543 /* main.m */; };
+		EE82249F1DCB440D00833543 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EE82249E1DCB440D00833543 /* AppDelegate.m */; };
+		EE8224A21DCB440D00833543 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE8224A11DCB440D00833543 /* ViewController.m */; };
+		EE8224A51DCB440D00833543 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE8224A31DCB440D00833543 /* Main.storyboard */; };
+		EE8224A71DCB440D00833543 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE8224A61DCB440D00833543 /* Assets.xcassets */; };
+		EE8224AA1DCB440D00833543 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE8224A81DCB440D00833543 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EE8224971DCB440D00833543 /* GolfScorecardd.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GolfScorecardd.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE82249B1DCB440D00833543 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EE82249D1DCB440D00833543 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EE82249E1DCB440D00833543 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EE8224A01DCB440D00833543 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EE8224A11DCB440D00833543 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EE8224A41DCB440D00833543 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EE8224A61DCB440D00833543 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EE8224A91DCB440D00833543 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EE8224AB1DCB440D00833543 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE8224941DCB440D00833543 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE82248E1DCB440D00833543 = {
+			isa = PBXGroup;
+			children = (
+				EE8224991DCB440D00833543 /* GolfScorecardd */,
+				EE8224981DCB440D00833543 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EE8224981DCB440D00833543 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE8224971DCB440D00833543 /* GolfScorecardd.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE8224991DCB440D00833543 /* GolfScorecardd */ = {
+			isa = PBXGroup;
+			children = (
+				EE82249D1DCB440D00833543 /* AppDelegate.h */,
+				EE82249E1DCB440D00833543 /* AppDelegate.m */,
+				EE8224A01DCB440D00833543 /* ViewController.h */,
+				EE8224A11DCB440D00833543 /* ViewController.m */,
+				EE8224A31DCB440D00833543 /* Main.storyboard */,
+				EE8224A61DCB440D00833543 /* Assets.xcassets */,
+				EE8224A81DCB440D00833543 /* LaunchScreen.storyboard */,
+				EE8224AB1DCB440D00833543 /* Info.plist */,
+				EE82249A1DCB440D00833543 /* Supporting Files */,
+			);
+			path = GolfScorecardd;
+			sourceTree = "<group>";
+		};
+		EE82249A1DCB440D00833543 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EE82249B1DCB440D00833543 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE8224961DCB440D00833543 /* GolfScorecardd */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE8224AE1DCB440D00833543 /* Build configuration list for PBXNativeTarget "GolfScorecardd" */;
+			buildPhases = (
+				EE8224931DCB440D00833543 /* Sources */,
+				EE8224941DCB440D00833543 /* Frameworks */,
+				EE8224951DCB440D00833543 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GolfScorecardd;
+			productName = GolfScorecardd;
+			productReference = EE8224971DCB440D00833543 /* GolfScorecardd.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE82248F1DCB440D00833543 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "The Iron Yard";
+				TargetAttributes = {
+					EE8224961DCB440D00833543 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = X7U48SSVUK;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = EE8224921DCB440D00833543 /* Build configuration list for PBXProject "GolfScorecardd" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EE82248E1DCB440D00833543;
+			productRefGroup = EE8224981DCB440D00833543 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE8224961DCB440D00833543 /* GolfScorecardd */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE8224951DCB440D00833543 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE8224AA1DCB440D00833543 /* LaunchScreen.storyboard in Resources */,
+				EE8224A71DCB440D00833543 /* Assets.xcassets in Resources */,
+				EE8224A51DCB440D00833543 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE8224931DCB440D00833543 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE8224A21DCB440D00833543 /* ViewController.m in Sources */,
+				EE82249F1DCB440D00833543 /* AppDelegate.m in Sources */,
+				EE82249C1DCB440D00833543 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EE8224A31DCB440D00833543 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE8224A41DCB440D00833543 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EE8224A81DCB440D00833543 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE8224A91DCB440D00833543 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EE8224AC1DCB440D00833543 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EE8224AD1DCB440D00833543 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE8224AF1DCB440D00833543 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = X7U48SSVUK;
+				INFOPLIST_FILE = GolfScorecardd/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tiy.GolfScorecardd;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EE8224B01DCB440D00833543 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = X7U48SSVUK;
+				INFOPLIST_FILE = GolfScorecardd/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tiy.GolfScorecardd;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE8224921DCB440D00833543 /* Build configuration list for PBXProject "GolfScorecardd" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE8224AC1DCB440D00833543 /* Debug */,
+				EE8224AD1DCB440D00833543 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE8224AE1DCB440D00833543 /* Build configuration list for PBXNativeTarget "GolfScorecardd" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE8224AF1DCB440D00833543 /* Debug */,
+				EE8224B01DCB440D00833543 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE82248F1DCB440D00833543 /* Project object */;
+}
